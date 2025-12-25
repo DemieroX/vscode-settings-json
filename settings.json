@@ -1,0 +1,129 @@
+{
+    /* VSCode Configuration - by Demiero
+    This configuration is inspired by various programs I have used in the past: GNU Nano, Micro Text Editor, Focus Editor and etc.
+    The editor is tuned to be clean & minimal with minimum UI elements & focus on a keyboard-mouse workflow.
+    */
+    
+    "workbench.startupEditor": "none", // What you will see on start-up (I use terminal right away, but if you want an empty editor, use "none")
+    
+    // Custom User Settings //
+    "workbench.editor.showTabs": "none",
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.statusBar.visible": false,
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 15,
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.layoutControl.enabled": false,
+    "workbench.editor.empty.hint": "hidden",
+    "workbench.panel.showLabels": false,
+
+    "editor.wordWrap": "on",
+    "editor.codeLens": false,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": false,
+    "editor.renderWhitespace": "none",
+    "editor.linkedEditing": true,
+    "editor.stickyScroll.enabled": false,
+    "workbench.activityBar.location": "bottom",
+
+    "editor.minimap.maxColumn": 75,
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.side": "right",
+
+    "editor.mouseWheelZoom": true,
+    "editor.glyphMargin": false,
+    "editor.fastScrollSensitivity": 22,
+
+    "editor.folding": false,
+
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.overviewRulerBorder": false,
+
+    "editor.scrollbar.vertical": "hidden",
+    "editor.scrollbar.horizontal": "hidden",
+    
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorStyle": "block",
+
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingOvertype": "always",
+    "editor.autoSurround": "languageDefined",
+
+    "editor.lineNumbers": "on",
+    "editor.renderLineHighlight": "gutter",
+    
+    "breadcrumbs.enabled": false,
+    
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+
+    "window.zoomLevel": 0.5,
+    "window.menuBarVisibility": "toggle",
+    "window.commandCenter": false,
+
+    "zenMode.centerLayout": false,
+    "zenMode.showTabs": "none",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.fullScreen": true,
+
+    "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+
+    "symbols.hidesExplorerArrows": false,
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "editor.fontFamily": "Space Mono", // "Space Mono" and "Jetbrains Mono" are my personal picks :)
+    "workbench.colorTheme": "August - Drawbridge", // "August Themes" are recommended with this config.
+
+    // Custom Color Customization
+    "workbench.colorCustomizations": {
+        // Transparent Colored Elements
+        "titleBar.border":"#00000000",
+        "scrollbar.shadow": "#00000000",
+        "editor.lineHighlightBorder":"#00000000",
+        "editor.lineHighlightBackground":"#00000000",
+        "panel.border":"#00000000",
+        "statusBar.border":"#00000000",
+        "statusBar.focusBorder":"#00000000",
+
+/*         // Custom Terminal-ANSI Colors (Optional, uncomment to apply!)
+        "terminal.ansiBlack": "#21222C",
+        "terminal.ansiRed": "#FF5555",
+        "terminal.ansiGreen": "#50FA7B",
+        "terminal.ansiYellow": "#F1FA8C",
+        "terminal.ansiBlue": "#46A9FC",
+        "terminal.ansiMagenta": "#FF79C6",
+        "terminal.ansiCyan": "#8BE9FD",
+        "terminal.ansiWhite": "#F8F8F2",
+
+        "terminal.ansiBrightBlack": "#6272A4",
+        "terminal.ansiBrightRed": "#FF6E6E",
+        "terminal.ansiBrightGreen": "#69FF91",
+        "terminal.ansiBrightYellow": "#FFFFB6",
+        "terminal.ansiBrightBlue": "#6AB9FF",
+        "terminal.ansiBrightMagenta": "#FF92DF",
+        "terminal.ansiBrightCyan": "#B4FEEF",
+        "terminal.ansiBrightWhite": "#FFFFFF" */
+    },
+
+    // Custom UI Style Settings
+    "custom-ui-style.stylesheet": {
+        ".monaco-workbench .part.titlebar > .titlebar-container > .titlebar-left > .window-appicon:not(.codicon)": "display: none !important;",
+        ".titlebar-right .actions-container": "display: none !important;",
+        ".monaco-workbench .part.editor .title": "box-shadow: none !important;",
+        ".monaco-workbench .part.editor .editor-group-container": "box-shadow: none !important;",
+        ".monaco-workbench .part.titlebar": "box-shadow: none !important;",
+    "security.workspace.trust.startupPrompt": "never",
+    },
+
+    // Icon Themes
+    "workbench.productIconTheme": "fluent-icons",
+    "workbench.iconTheme": "symbols",
+
+    // Runtime Modified Settings
+    "chat.viewWelcome.enabled": false,
+    "editor.minimap.enabled": false,
+}
