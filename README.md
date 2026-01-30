@@ -11,7 +11,6 @@ A clean, distraction-free VSCode configuration inspired by **GNU Nano**, **Micro
 
 | Extension | Purpose | Link |
 | :--- | :--- | :--- |
-| **August Themes** | The core color themes | [Install](https://marketplace.visualstudio.com/items?itemName=inci-august.august-themes) |
 | **Symbols** | Minimalist file icons | [Install](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.symbols) |
 | **Fluent Icons** | Clean product/UI icons | [Install](https://marketplace.visualstudio.com/items?itemName=miguelsolorio.fluent-icons) |
 | **Custom UI Style** | Allows CSS modification (Stripping useless UI) | [Install](https://marketplace.visualstudio.com/items?itemName=subframe7536.custom-ui-style) |
