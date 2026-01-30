@@ -4,7 +4,7 @@
     The editor is tuned to be clean & minimal with minimum UI elements & focus on a keyboard-mouse workflow.
     */
 
-  "workbench.startupEditor": "none", // What you will see on start-up (I use terminal right away, but if you want an empty editor, use "none")
+  "workbench.startupEditor": "terminal", // What you will see on start-up (I use terminal right away, but if you want an empty editor, use "none")
 
   // Custom User Settings //
   "workbench.editor.showTabs": "none",
@@ -64,6 +64,7 @@
   "window.zoomLevel": 0.5,
   "window.menuBarVisibility": "toggle",
   "window.commandCenter": false,
+  "window.title": "${activeEditorShort}${separator}${rootName}",
 
   "zenMode.centerLayout": false,
   "zenMode.showTabs": "none",
@@ -77,7 +78,7 @@
   "security.workspace.trust.untrustedFiles": "open",
 
   "editor.fontFamily": "Space Mono", // "Space Mono" and "Jetbrains Mono" are my personal picks :)
-  "workbench.colorTheme": "August - In Bed By 7pm (Darker)", // "August Themes" are recommended with this config.
+  "workbench.colorTheme": "Tsoding Emacs Gruber Even Darker", // "August Themes" are recommended with this config.
 
   // Custom Color Customization
   "workbench.colorCustomizations": {
